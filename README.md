@@ -1,5 +1,9 @@
 # tmux-tokyo-night-merkks
 
+## Preview
+
+![Preview](./preview.png)
+
 ## Installation
 
 ### Using TPM (Tmux Plugin Manager)
