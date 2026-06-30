@@ -2,6 +2,10 @@
 
 This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
 
+## Commit Guidelines
+
+- Do NOT add a `Co-Authored-By` trailer (or any Claude/AI attribution line) to commit messages.
+
 ## Architecture Overview
 
 This is a tmux plugin that applies the Tokyo Night color scheme to tmux's status bar. The architecture follows a modular, function-driven design:
