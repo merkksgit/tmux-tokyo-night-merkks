@@ -38,7 +38,7 @@ tmux source-file ~/.tmux.conf
 
 ## Theme Variations
 
-This plugin offers two theme variations:
+This plugin offers three theme variations:
 
 ### Night (Default)
 The original Tokyo Night color scheme.
@@ -50,6 +50,9 @@ My own custom theme variation with personalized colors.
 
 ![Merkks Preview](./previews/preview-merkks.png)
 
+### Merkks Dark
+Same as Merkks, but with a darker blue status bar background (`#1a1b26`).
+
 To set your preferred theme variation, add this line to your `~/.tmux.conf`:
 
 ```tmux
@@ -58,6 +61,9 @@ set -g @theme_variation "night"
 
 # Or for the merkks theme
 set -g @theme_variation "merkks"
+
+# Or for the merkks theme with a darker status bar
+set -g @theme_variation "merkks-dark"
 ```
 
 Then reload tmux:
