@@ -35,7 +35,7 @@ tmux set-window-option -g window-status-activity-style "$window_with_activity_st
 tmux set-window-option -g window-status-bell-style "${window_status_bell_style}"
 
 # message styling
-tmux set-option -g message-style "bg=${PALLETE[red]},fg=${PALLETE[bg_dark]}"
+tmux set-option -g message-style "bg=${PALLETE[red]},fg=${PALLETE[bg_dark]},fill=${PALLETE[red]}"
 
 # status bar
 status_bar_bg=${PALLETE[bg_highlight]}
